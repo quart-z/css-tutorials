@@ -7,9 +7,13 @@ function Home() {
       <header>
 
       </header>
-      <div className = "main-content">
+      <div className = "main-content-box">
       {/* Section 1 - Content section , <Content /> */}
-
+        <div className = "gradient-container">
+          <div className="gradient-noise"> </div>
+          <div className = "gradient1">
+          </div>
+        </div>
       </div>
     </body>
   );
