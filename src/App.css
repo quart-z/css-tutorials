@@ -34,6 +34,7 @@ nav {
 .main-content-box {
   display: flex;
   position: relative;
+  height: 100%;
 }
 
 .gradient-container {
@@ -41,9 +42,9 @@ nav {
   z-index: -1;
   display: flex;
   justify-content: center;
-  height: 100%;
   top: -400px;
   width: 100%;
+  height: 100%;
 }
 
 .gradient-noise {
@@ -56,11 +57,11 @@ nav {
 .gradient1 {
   position: absolute;
   width: 100%;
+  height: 100%;
   z-index: -1;
   background: linear-gradient(to right, blue,blue);
   border-radius: 90%;
   font-size: 80px;
-  height: 15em;
   filter: blur(100px);
   opacity: .1;
 }
